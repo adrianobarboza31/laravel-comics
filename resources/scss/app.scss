@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap';
+body{
+    background-image: url('../img/fondo-pag-speciali.jpg');
+    background-size: contain;
+}
+.img-pr{
+    max-width: 100%;
+}
+.container{
+    max-width: 1140px;
+}
+li{
+    list-style: none;
+}
+.debuga{
+    border: 1px solid black;
+}
+.card{
+    width: calc((100% - 60px)/ 3);
+    margin: 5px 10px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.homepg{
+    height: 17vh;
+}
